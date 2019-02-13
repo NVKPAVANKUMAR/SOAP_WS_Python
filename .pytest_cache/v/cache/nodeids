@@ -1,0 +1,6 @@
+[
+  "Arithmetic_SOAP_WS.py::Calculator_WS::test_01addition", 
+  "Arithmetic_SOAP_WS.py::Calculator_WS::test_02subtraction", 
+  "Arithmetic_SOAP_WS.py::Calculator_WS::test_03multiplication", 
+  "Arithmetic_SOAP_WS.py::Calculator_WS::test_04divide"
+]
