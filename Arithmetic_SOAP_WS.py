@@ -56,7 +56,7 @@ class Calculator_WS(unittest.TestCase):
     def setUpClass(cls):
         global client
         client = ''
-        cls.base_uri = config_parser("ConfigData", "calc_ws_url")
+        cls.base_uri = config_parser("ConfigData", "calc_ws_uri")
         client = Client(cls.base_uri)
 
     @staticmethod

@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arithmetic_SOAP_WS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arithmetic_SOAP_WS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CountryInfo_SOAP_WS.py" beforeDir="false" afterPath="$PROJECT_DIR$/CountryInfo_SOAP_WS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/configuration/config.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Arithmetic_SOAP_WS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+            <state relative-caret-position="601">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CountryInfo_SOAP_WS.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -26,20 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configuration/config.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="1" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CountryInfo_SOAP_WS.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="41" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="81">
+              <caret line="3" column="21" selection-start-line="3" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -70,9 +71,9 @@
       <list>
         <option value="$PROJECT_DIR$/SOAP_WS.py" />
         <option value="$PROJECT_DIR$/TestRunner.py" />
-        <option value="$PROJECT_DIR$/CountryInfo_SOAP_WS.py" />
-        <option value="$PROJECT_DIR$/configuration/config.ini" />
         <option value="$PROJECT_DIR$/Arithmetic_SOAP_WS.py" />
+        <option value="$PROJECT_DIR$/configuration/config.ini" />
+        <option value="$PROJECT_DIR$/CountryInfo_SOAP_WS.py" />
       </list>
     </option>
   </component>
@@ -110,12 +111,6 @@
               <item name="SOAP_WS_Python" type="462c0819:PsiDirectoryNode" />
               <item name="reports" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SOAP_WS_Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOAP_WS_Python" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="example_dir" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -142,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for Arithmetic_SOAP_WS.Calculator_WS.test_parse_excel">
+  <component name="RunManager" selected="Python tests.Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_02">
     <configuration name="TestRunner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="robotframework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,7 +187,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_03" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_02" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="robotframework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,7 +197,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;CountryInfo_SOAP_WS.Country_WS_Tests.test_03&quot;" />
+      <option name="_new_target" value="&quot;CountryInfo_SOAP_WS.Country_WS_Tests.test_02&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -222,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_02" />
         <item itemvalue="Python tests.Unittests for Arithmetic_SOAP_WS.Calculator_WS.test_parse_excel" />
         <item itemvalue="Python.TestRunner" />
         <item itemvalue="Python tests.Unittests for Arithmetic_SOAP_WS.Calculator_WS.test_05" />
         <item itemvalue="Python tests.Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_04" />
-        <item itemvalue="Python tests.Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_03" />
       </list>
     </recent_temporary>
   </component>
@@ -244,52 +239,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_Arithmetic_SOAP_WS_Calculator_WS_test_parse_excel - 2019.02.16 at 15h 30m 20s.xml">
-      <configuration name="Unittests for Arithmetic_SOAP_WS.Calculator_WS.test_parse_excel" configurationId="tests" />
+    <history-entry file="Unittests_for_CountryInfo_SOAP_WS_Country_WS_Tests_test_02 - 2019.02.16 at 16h 25m 54s.xml">
+      <configuration name="Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Arithmetic_SOAP_WS_Calculator_WS_test_parse_excel - 2019.02.16 at 15h 30m 52s.xml">
-      <configuration name="Unittests for Arithmetic_SOAP_WS.Calculator_WS.test_parse_excel" configurationId="tests" />
+    <history-entry file="Unittests_for_CountryInfo_SOAP_WS_Country_WS_Tests_test_02 - 2019.02.16 at 16h 32m 51s.xml">
+      <configuration name="Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Arithmetic_SOAP_WS_Calculator_WS_test_parse_excel - 2019.02.16 at 15h 31m 11s.xml">
-      <configuration name="Unittests for Arithmetic_SOAP_WS.Calculator_WS.test_parse_excel" configurationId="tests" />
+    <history-entry file="Unittests_for_CountryInfo_SOAP_WS_Country_WS_Tests_test_02 - 2019.02.16 at 16h 34m 03s.xml">
+      <configuration name="Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Arithmetic_SOAP_WS_Calculator_WS_test_parse_excel - 2019.02.16 at 15h 32m 45s.xml">
-      <configuration name="Unittests for Arithmetic_SOAP_WS.Calculator_WS.test_parse_excel" configurationId="tests" />
+    <history-entry file="Unittests_for_CountryInfo_SOAP_WS_Country_WS_Tests_test_02 - 2019.02.16 at 16h 34m 25s.xml">
+      <configuration name="Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Arithmetic_SOAP_WS_Calculator_WS_test_parse_excel - 2019.02.16 at 15h 34m 20s.xml">
-      <configuration name="Unittests for Arithmetic_SOAP_WS.Calculator_WS.test_parse_excel" configurationId="tests" />
+    <history-entry file="Unittests_for_CountryInfo_SOAP_WS_Country_WS_Tests_test_02 - 2019.02.16 at 16h 37m 23s.xml">
+      <configuration name="Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Arithmetic_SOAP_WS_Calculator_WS_test_parse_excel - 2019.02.16 at 15h 48m 18s.xml">
-      <configuration name="Unittests for Arithmetic_SOAP_WS.Calculator_WS.test_parse_excel" configurationId="tests" />
+    <history-entry file="Unittests_for_CountryInfo_SOAP_WS_Country_WS_Tests_test_02 - 2019.02.16 at 16h 38m 55s.xml">
+      <configuration name="Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Arithmetic_SOAP_WS_Calculator_WS_test_parse_excel - 2019.02.16 at 15h 48m 56s.xml">
-      <configuration name="Unittests for Arithmetic_SOAP_WS.Calculator_WS.test_parse_excel" configurationId="tests" />
+    <history-entry file="Unittests_for_CountryInfo_SOAP_WS_Country_WS_Tests_test_02 - 2019.02.16 at 16h 38m 59s.xml">
+      <configuration name="Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Arithmetic_SOAP_WS_Calculator_WS_test_parse_excel - 2019.02.16 at 15h 49m 24s.xml">
-      <configuration name="Unittests for Arithmetic_SOAP_WS.Calculator_WS.test_parse_excel" configurationId="tests" />
+    <history-entry file="Unittests_for_CountryInfo_SOAP_WS_Country_WS_Tests_test_02 - 2019.02.16 at 16h 39m 54s.xml">
+      <configuration name="Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Arithmetic_SOAP_WS_Calculator_WS_test_parse_excel - 2019.02.16 at 15h 49m 55s.xml">
-      <configuration name="Unittests for Arithmetic_SOAP_WS.Calculator_WS.test_parse_excel" configurationId="tests" />
+    <history-entry file="Unittests_for_CountryInfo_SOAP_WS_Country_WS_Tests_test_02 - 2019.02.16 at 16h 40m 41s.xml">
+      <configuration name="Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_Arithmetic_SOAP_WS_Calculator_WS_test_parse_excel - 2019.02.16 at 15h 50m 33s.xml">
-      <configuration name="Unittests for Arithmetic_SOAP_WS.Calculator_WS.test_parse_excel" configurationId="tests" />
+    <history-entry file="Unittests_for_CountryInfo_SOAP_WS_Country_WS_Tests_test_02 - 2019.02.16 at 16h 41m 48s.xml">
+      <configuration name="Unittests for CountryInfo_SOAP_WS.Country_WS_Tests.test_02" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16845638" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16845638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7705383" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57932013" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5311615" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.8052373" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.8045326" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.8052373" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -342,16 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CountryInfo_SOAP_WS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="41" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -361,15 +345,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/configuration/config.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="1" selection-end-column="11" />
+        <state relative-caret-position="81">
+          <caret line="3" column="21" selection-start-line="3" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Arithmetic_SOAP_WS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+        <state relative-caret-position="601">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CountryInfo_SOAP_WS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
