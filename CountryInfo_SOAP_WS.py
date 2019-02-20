@@ -11,6 +11,11 @@ def get_capital(client, countryISOcode):
     return result
 
 
+def get_countryISO_code(client, country_name):
+    result = client.service.CountryISOCode(country_name)
+    return result
+
+
 def parse_excel(file_path):
     rows = []
     wb = load_workbook(file_path)
@@ -55,6 +60,20 @@ class Country_WS_Tests(unittest.TestCase):
                 write_to_excel(file_path, i + 2, "PASSED")
             else:
                 write_to_excel(file_path, i + 2, "FAILED")
+
+    @unittest.skip("demonstrating skipping")
+    def test_04(self):
+        wsdl = 'http://www.soapclient.com/xml/soapresponder.wsdl'
+        client_1 = Client(wsdl=wsdl)
+        response = client_1.service.Method1('Zeep', 'is cool')
+        print response.status_message
+
+    def test_05(self):
+        file_path = config_parser('ConfigData', 'countryData_file_path')
+        out = parse_excel(file_path)
+        for i in range(0, len(out)):
+            actual_result = get_countryISO_code(client, out[i][0].value)
+            print actual_result
 
 
 if __name__ == '__main__':
